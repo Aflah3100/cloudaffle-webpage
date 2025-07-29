@@ -206,12 +206,15 @@
 .blog-footer {
     margin-top: 20px;
 }
-.button-div{
+
+.button-div {
     margin-top: 2rem;
     display: flex;
-    justify-content: center;;
+    justify-content: center;
+    ;
 }
-.view-article-button{
+
+.view-article-button {
     width: 150px;
     height: 50px;
     background-color: rgba(105, 106, 117, 0.03);
@@ -223,8 +226,35 @@
 }
 
 
-.view-article-button:hover{
+.view-article-button:hover {
     background-color: var(--primary-color);
     color: #fff;
+}
+
+.footer-div {
+    margin: 100px auto 0px auto;
+    max-width: 1280px;
+    background-color: rgba(246, 246, 247, 1);
+    padding: 32px 0px;
+}
+
+.footer-items-div {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    column-gap: 16px;
+}
+
+.footer-items-div a {
+    text-decoration: none;
+    color: rgba(59, 60, 74, 1);
+    font-family: var(--font-family);
+
+}
+
+.vertical-line {
+    width: 1px;
+    height: 20px;
+    background-color: rgba(198, 198, 198, 1);
 
 }
