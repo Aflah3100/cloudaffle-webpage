@@ -61,10 +61,92 @@
     outline: none;
 }
 
-.header-search-input + span{
-    position: absolute  ;
+.header-search-input+span {
+    position: absolute;
     right: 8px;
     top: 7px;
     color: #52525B;
     pointer-events: none;
+}
+
+.title-image-div-main {
+    max-width: 1216px;
+    margin: auto;
+    position: relative;
+}
+
+
+.title-image-div {
+    width: 100%;
+    min-height: 600px;
+    background-image: url(/assets/images/hero.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+}
+
+.title-image-card {
+    width: 598px;
+    position: absolute;
+    background-color: #FFFFFF;
+    box-shadow: 0 12px 24px -6px rgba(24, 26, 42, 0.12);
+    top:360px;
+    left: 64px;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 24px;
+    padding: 40px;
+}
+
+.title-card-header {
+    display: flex;
+    flex-direction: column;
+    row-gap: 16px;
+}
+
+.title-card-top-div {
+    width: 97px;
+    height: 28px;
+    background-color: var(--primary-color);
+    border-radius: 6px;
+    padding: 4px 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #FFFFFF;
+    font-family: var(--font-family);
+    font-size: 0.9em;
+
+
+}
+
+.title-card-title {
+    font-size: 36px;
+    line-height: 40px;
+    font-weight: 600;
+    font-family: var(--font-family);
+}
+
+.title-card-footer {
+    width: 100%;
+    height: 36px;
+    display: flex;
+    column-gap: 30px;
+    align-items: center;
+
+}
+
+.title-card-footer-image {
+    width: 36px;
+    height: 36px;
+    border-radius: 28px;
+    background-image: url(/assets/images/author.png);
+    background-size: cover;
+}
+
+.title-card-footer-title {
+    color: #97989F;
+    font-family: var(--font-family);
+    font-weight: 500;
 }

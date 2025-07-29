@@ -1,3 +1,17 @@
 .header-nav{
     display: none;
 }
+
+.title-image-div{
+    min-height: 200px;
+}
+
+.title-image-div-main{
+    position: static;
+}
+
+.title-image-card{
+    top: 250px;
+    width: 80%;
+    left: 10%;
+}
